@@ -1,0 +1,44 @@
+name: Afghan_Donors
+description: "App for Afghan Donors"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  flutter_launcher_icons: ^0.14.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/appIcon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+  fonts:
+    - family: Bahij
+      fonts:
+        - asset: fonts/
+  #       - assets: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - assets: fonts/TrajanPro.ttf
+  #       - assets: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
